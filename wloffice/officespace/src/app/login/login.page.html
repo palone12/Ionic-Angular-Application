@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <div class="loginContainer">
+      <div>
+        <ion-input fill="outline" placeholder="Enter company name"></ion-input>
+        <ion-input fill="outline" placeholder="Enter Password" type="password"></ion-input>
+      </div>
+      <div class="buttonContainer">
+        <ion-buttons>
+          <ion-button color="primary" fill="solid">Login</ion-button>
+          <ion-button routerLink="/register" color="primary" fill="outline">Register</ion-button>
+        </ion-buttons>
+      </div>
+    </div>
+  </ion-grid>
+</ion-content>

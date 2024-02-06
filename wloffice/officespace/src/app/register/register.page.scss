@@ -1,0 +1,21 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.buttonContainer {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+ion-input {
+  margin: 10px;
+}
+
+ion-buttons {
+  overflow: hidden;
+}
